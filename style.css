@@ -1,0 +1,131 @@
+body{
+background-color:wheat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    gap: 20px;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.barra-pesquisa input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+.barra-pesquisa button {
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.barra-pesquisa button:hover {
+    background-color:wheat;
+}
+
+#links{
+list-style: none;
+display: flex; 
+justify-content: center;
+gap: 5px;
+}
+
+.loja {
+    font-style: italic;
+    color:black;
+    border: 1px solid black;
+    background-color:white;
+    display: inline;
+    padding: 5px;
+}
+
+.produtos-destaque {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    background-color: white;
+    align-items: center; 
+}
+
+.produtos-destaque h2 {
+    flex-basis: 100%; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtos-mercado {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    background-color: white;
+    align-items: center; 
+}
+
+.produtos-mercado h2 {
+    flex-basis: 100%; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    max-width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.produto .preco {
+    font-size: 20px;
+    color: #2d2d2d;
+    font-weight: bold;
+}
+
+.produto .adicionar-carrinho {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.produto .adicionar-carrinho:hover {
+    background-color: #45a049;
+}
